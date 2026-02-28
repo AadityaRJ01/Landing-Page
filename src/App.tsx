@@ -5,6 +5,7 @@ import { Services } from "./components/sections/Services";
 import { AboutUs } from "./components/sections/AboutUs";
 import { Pricing } from "./components/sections/Pricing";
 import { CTA } from "./components/sections/CallToAction";
+// import { Footer } from "./components/elements/Footer";
 function App() {
   return (
     <Layout title="EdgeAI">
@@ -14,6 +15,7 @@ function App() {
       <AboutUs/>
       <Pricing/>
       <CTA/>
+      {/* <Footer/> */}
     </Layout>
   );
 }
